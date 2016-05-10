@@ -92,7 +92,8 @@ zstyle ':prezto:module:prompt' theme 'fire'
 
 #### gitのフォルダに入った時にブランチを表示させる
 
-```zstyle ':prezto:load' pmodule \
+```
+  zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
   'editor' \
