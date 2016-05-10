@@ -21,11 +21,9 @@ export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:$GOPATH/bin
 
 # for alias
-alias vim="mvim -v"
-alias grep='grep --exclude=*.svn*'
-alias greprn='grep -rn --exclude=*.svn*'
+alias vi="nvim"
+alias vim="nvim"
 alias bye='sudo shutdown -h now'
-alias rsync='rsync --exclude=*.svn*'
 alias gst='git status'
 alias diff='colordiff'
 alias less='less -R'

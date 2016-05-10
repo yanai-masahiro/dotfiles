@@ -6,7 +6,7 @@ if !isdirectory(s:dein_repo_dir)
 endif
 execute 'set runtimepath^=' . s:dein_repo_dir
 
-call dein#began(expand'~/.cache/dein')
+call dein#begin(s:dein_repo_dir)
 
 " プラグイン管理.
 call dein#add('Shougo/dein.vim')
@@ -46,7 +46,7 @@ let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const
 
 " colorshema
 syntax on
-colorscheme jellyneans
+colorscheme jellybeans
 
 " ステータスライン 設定
 let g:lightline = {
@@ -75,3 +75,10 @@ set autoindent
 
 " Enable filetype plugins
 filetype plugin on
+
+
+" go はタブ推奨なので、デフォルトタブ設定にする
+set noexpandtab
+" 4タブ
+set tabstop=4
+set shiftwidth=4
