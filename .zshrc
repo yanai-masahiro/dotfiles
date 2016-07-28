@@ -21,8 +21,7 @@ export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:$GOPATH/bin
 
 # for alias
-alias vi="nvim"
-alias vim="nvim"
+alias vi="vim"
 alias bye='sudo shutdown -h now'
 alias gst='git status'
 alias diff='colordiff'
@@ -32,7 +31,6 @@ export XDG_CONFIG_HOME="$HOME/.config"
 # for Android
 export PATH=/Users/yana/Library/Android/sdk/platform-tools:$PATH
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
-#export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export ANDROID_HOME="/Applications/Android/sdk"
 export ANDROID_NDK_HOME="/Applications/Android/ndk"
 export PATH=${PATH}:$ANDROID_NDK_HOME
