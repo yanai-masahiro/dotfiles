@@ -61,9 +61,3 @@ bindkey '^r' peco-select-history
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)";
 fi
-
-# The next line updates PATH for the Google Cloud SDK.
-source '/Users/yana/google-cloud-sdk/path.zsh.inc'
-
-# The next line enables bash completion for gcloud.
-source '/Users/yana/google-cloud-sdk/completion.zsh.inc'
