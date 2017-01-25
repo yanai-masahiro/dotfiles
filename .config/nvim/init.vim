@@ -72,6 +72,8 @@ set noshowmode
 set number
 " 自動インデント
 set autoindent
+" TrueColor対応
+set termguicolors
 
 " Enable filetype plugins
 filetype plugin on
