@@ -1,6 +1,6 @@
 ### Prezto
 
-[新規の場合はPreztoをインストールから](Preztoをインストール)
+[新規の場合はPreztoをインストールから](#Preztoをインストール)
 
 ※ [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)から[Prezto](https://github.com/sorin-ionescu/prezto)に移行する
 
