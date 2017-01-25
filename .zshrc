@@ -21,8 +21,8 @@ export GOPATH=$HOME/go
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:$GOPATH/bin
 
 # for alias
-alias vi="nvim"
-alias vim="nvim"
+#alias vi="nvim"
+#alias vim="nvim"
 alias bye='sudo shutdown -h now'
 alias gst='git status'
 alias diff='colordiff'
@@ -31,7 +31,6 @@ export XDG_CONFIG_HOME="$HOME/.config"
 
 # for Android
 export PATH=/Users/yana/Library/Android/sdk/platform-tools:$PATH
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 #export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export ANDROID_HOME="/Applications/Android/sdk"
 export ANDROID_NDK_HOME="/Applications/Android/ndk"
@@ -63,9 +62,3 @@ bindkey '^r' peco-select-history
 if which rbenv > /dev/null; then
   eval "$(rbenv init -)";
 fi
-
-# The next line updates PATH for the Google Cloud SDK.
-source '/Users/yana/google-cloud-sdk/path.zsh.inc'
-
-# The next line enables bash completion for gcloud.
-source '/Users/yana/google-cloud-sdk/completion.zsh.inc'
